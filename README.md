@@ -17,6 +17,8 @@ cd ir-dns-proxy
 ```
 
 ### Load Docker image
+If you don't have access to **Docker Hub**, you can load an image from a local file using the following command:
+
 ```bash
 docker image load -i tinyproxy.dockerimage
 ```
